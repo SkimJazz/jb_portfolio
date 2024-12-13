@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/** {*/
+/*    font-family: "Montserrat", sans-serif;*/
+/*}*/
+
+/********** React Slider **********/
+
+/* Space between each card */
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+/* Custom bottom dots */
+.custom-dots .slick-dots li button:before {
+    color: rgb(255, 166, 0);
+    scale: 2;
+}
+.custom-dots .slick-dots li.slick-active button:before {
+    color: #ff9e00;
+}
+/* Space between card and dots */
+.custom-dots .slick-dots {
+    bottom: -50px;
+}
+
+/* Custom arrows */
+.custom-arrows .slick-prev:before, .custom-arrows .slick-next:before {
+    color: rgb(120, 175, 159);
+    font-size: 20px;
+    padding: 0;
+}
+
+
+
+* {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "XROT" 0,
+    "YROT" 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #2E383F;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #07617D;
+    border-radius: 5px;
+}
+
+
+
+/* loader animation */
+@keyframes fade {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.l, .o, .a, .d, .i, .n, .g, .dot1, .dot2, .dot3 {
+    animation: fade 1s infinite;
+}
+
+.l {
+    animation-delay: 0s;
+}
+
+.o {
+    animation-delay: 0.1s;
+}
+
+.a {
+    animation-delay: 0.2s;
+}
+
+.d {
+    animation-delay: 0.3s;
+}
+
+.i {
+    animation-delay: 0.4s;
+}
+
+.n {
+    animation-delay: 0.5s;
+}
+
+.g {
+    animation-delay: 0.6s;
+}
+
+.dot1 {
+    animation-delay: 0.7s;
+}
+
+.dot2 {
+    animation-delay: 0.8s;
+}
+
+.dot3 {
+    animation-delay: 0.9s;
+}
+
+
