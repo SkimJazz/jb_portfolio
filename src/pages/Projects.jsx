@@ -41,7 +41,7 @@ const Projects = () => {
                         {projects.map((project, index) => (
                             <div key={index} className="p-0">
                                 <div className="relative flex flex-col items-start gap-4 p-4 border-2
-                                                border-[rgb(62,73,85)] bg-tertiary/10 h-[450px] sm:h-[550px]
+                                                border-[rgb(62,73,85)] bg-tertiary/10 h-[450px] sm:h-[600px]
                                                 text-zinc-300 rounded-lg md:flex-row ">
 
                                     <p className="text-secondary text-2xl">{project.title}</p>
