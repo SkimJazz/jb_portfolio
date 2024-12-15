@@ -8,7 +8,7 @@ export const projects = [
             "  and EmailJS integration for contact form submission. The website is responsive and " +
             "  mobile-friendly, with interactive elements to make it more engaging and " +
             "  user-friendly.",
-        githubLink: "https://github.com/yourusername/portfolio"
+        githubLink: "https://github.com/SkimJazz/jb_portfolio"
 
     },
     {
